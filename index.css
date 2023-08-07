@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 8, 29, 0.9);
+}
+.hero-img {
+    background: 
+        linear-gradient(103.24deg, rgb(0, 8, 29, 0.9), rgb(0, 8, 29, 0.3)), 
+        url(./img/bg-image-large.jpeg);
+    height: 100vh ;
+}
+.logo {
+    width: 100px;
+}
+.lang {
+    color: white;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+}
+.hero-text {
+    padding: 5rem;
+}
+.hero-text-title-div {
+    width: 700px;
+}
+.form-floating input, .form-floating input:focus {
+    background-color: rgba(22, 22, 22, 0.7);
+    color: white;
+}
+.form-floating input:focus {
+    outline: 2px solid white;
+}
+.form-floating>.form-control:focus~label::after {
+    background-color: rgba(22, 22, 22, 0.7);
+}
+.form-floating>.form-control:focus~label {
+    color: white;
+}
+.form-floating button {
+    width: 30%;
+}
+.card {
+    border: 0px solid black;
+}
+.card img {
+    background-color: black;
+    padding: 5%;
+
+
+}
+.big-container {
+    width: 100%;
+    background-color: black;
+}
